@@ -3,7 +3,6 @@
 ### **Clone the Repository**  
 ```bash
 git clone github.com/nisan-project/Dense-PMSFNet-Retinal-Vasculature-and-FAZ-Segmentation-Network-in-OCTA-Images.git
-cd Dense-PMSFNet
 ```
 ### **Create a Virtual Environment & Install Dependencies**  
 ```bash

@@ -1,0 +1,26 @@
+
+Data: 
+  train_image_dir: "D:/OCTA500/3mm/Train/"
+  train_mask_dir: "D:/OCTA500/3mm FAZ gt/Train/"
+  val_image_dir: "D:/OCTA500/3mm/Val/"
+  val_mask_dir: "D:/OCTA500/3mm FAZ gt/Val/"
+  test_image_dir: "D:/OCTA500/3mm/Test/"
+  test_mask_dir: "D:/OCTA500/3mm FAZ gt/Test/"
+  dataset_path: '/path/to/your/dataset.npz'
+
+Train:
+  image_size: 304
+  img_channels: 3
+  batch_size: 4
+  epochs: 400
+  learning_rate: 0.001
+  seed: 27
+  rotation_range: 20
+  horizontal_flip: true
+  shear_range: 0.15
+  shuffle: true
+  patience: 20
+  fill_mode: 'nearest'
+
+checkpoint_path: "best_model_3mm_FAZ.keras"
+

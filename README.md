@@ -1,5 +1,16 @@
 # **Dense-PMSFNet: Retinal Vasculature and FAZ Segmentation in OCTA Images**  
+This repository contains the implementation of Dense-PMSFNet for accurate segmentation of retinal microvasculature (arteries, veins, capillaries) and the Foveal Avascular Zone (FAZ) in OCTA images.
 
+### **File Descriptions**  
+
+- **data_loader.py**: Preprocesses OCTA images and saves them as a compressed `.npz` file.  
+- **train.py**: Trains the **Dense-PMSFNet** model using configurations from `config.yaml` and preprocessed data.  
+- **test.py**: Evaluates the trained model on the test set and generates predictions.  
+- **config.yaml**: Contains training and testing parameters (dataset paths, hyperparameters, model settings).  
+- **requirements.txt**: Lists Python dependencies required for running the code.  
+- **models/**: Folder with model architectures used for comparison.  
+- **model.py**: Implementation of the **Dense-PMSFNet** model architecture for retinal vasculature and FAZ segmentation.
+  
 ### **Clone the Repository**  
 ```bash
 git clone github.com/nisan-project/Dense-PMSFNet-Retinal-Vasculature-and-FAZ-Segmentation-Network-in-OCTA-Images.git
